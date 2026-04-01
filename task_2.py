@@ -1,6 +1,7 @@
 import psutil
 import time
 
+
 while True:
     #загрузка CPU (в процентах)
     cpu_usage = psutil.cpu_percent(interval=1)
